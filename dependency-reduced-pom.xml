@@ -19,13 +19,7 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <transformers>
-            <transformer>
-              <mainClass>org.hadoop.mapreduce.MaxTempMapReduceJob</mainClass>
-            </transformer>
-          </transformers>
-        </configuration>
+        <configuration />
       </plugin>
     </plugins>
   </build>
