@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.hadoop.mapreduce;
+package org.bigtech.hadoop.mapreduce;
 
 import java.io.IOException;
 import java.util.Iterator;

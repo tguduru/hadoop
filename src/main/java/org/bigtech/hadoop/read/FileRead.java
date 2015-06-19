@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.hadoop.read;
+package org.bigtech.hadoop.read;
 
 import java.io.IOException;
 

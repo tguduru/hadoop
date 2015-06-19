@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.hadoop.mapreduce;
+package org.bigtech.hadoop.mapreduce;
 
 import java.io.IOException;
 
@@ -24,7 +24,7 @@ public class MaxTempMapReduceJob {
 	 */
 	public static void main(String[] args) throws IOException {
 		if (args.length != 2) {
-			System.out.println("Usage : hadoop jar <jar> org.hadoop.mapreduce.MaxTempMapReduceJob <input path> <output path>");
+			System.out.println("Usage : hadoop jar <jar> MaxTempMapReduceJob <input path> <output path>");
 		}
 		JobConf jobConf = new JobConf(MaxTempMapReduceJob.class);
 		jobConf.setJobName("Max Temparature Job");

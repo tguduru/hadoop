@@ -1,4 +1,4 @@
-package org.hadoop.io.thrift;
+package org.bigtech.hadoop.io.thrift;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -10,7 +10,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.thrift.TBase;
 import org.apache.thrift.TException;
 import org.apache.thrift.TSerializer;
-import org.hadoop.io.thrift.model.Person;
+import org.bigtech.hadoop.io.thrift.model.Person;
 
 /**
  * Write a thrift object {@link Person} into hdfs
@@ -30,7 +30,7 @@ public class ThriftWriterHDFS {
 			IOException, URISyntaxException {
 		if (args.length != 1) {
 			System.out
-					.println("Usage : hadoop jar <jar-name> org.hadoop.io.thrift.ThriftWriterHDFS <dest-path>");
+					.println("Usage : hadoop jar <jar-name> ThriftWriterHDFS <dest-path>");
 			System.exit(0);
 		}
 		final String destinationPath = args[0];

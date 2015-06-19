@@ -1,4 +1,4 @@
-package org.hadoop.io;
+package org.bigtech.hadoop.io;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,7 +24,7 @@ public class FileReadHDFS {
 	public static void main(String[] args) throws IOException {
 		if (args.length != 1) {
 			System.out
-					.println("Usage : hadoop jar <Jar> org.hadoop.io.FileReadHDFS <file-path>");
+					.println("Usage : hadoop jar <Jar> FileReadHDFS <file-path>");
 			System.exit(0);
 		}
 		String filePath = args[0];

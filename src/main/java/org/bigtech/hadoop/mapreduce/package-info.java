@@ -5,4 +5,4 @@
  * @author hadoop
  *
  */
-package org.hadoop.mapreduce;
+package org.bigtech.hadoop.mapreduce;

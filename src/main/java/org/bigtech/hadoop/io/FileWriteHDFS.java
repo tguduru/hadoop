@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.hadoop.io;
+package org.bigtech.hadoop.io;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -25,7 +25,7 @@ import org.apache.hadoop.util.Progressable;
 public class FileWriteHDFS {
 	public static void main(String args[]) throws IOException, URISyntaxException{
 		if(args.length != 2){
-			System.out.println("Usage : hadoop jar <Jar> org.hadoop.io.FileWriteHDFS <local-file-path> <hdfs-path> ");
+			System.out.println("Usage : hadoop jar <Jar> FileWriteHDFS <local-file-path> <hdfs-path> ");
 			System.exit(0);
 		}
 		String localPath = args[0];

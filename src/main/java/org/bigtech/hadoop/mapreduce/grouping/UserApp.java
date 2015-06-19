@@ -1,4 +1,4 @@
-package org.hadoop.mapreduce.grouping;
+package org.bigtech.hadoop.mapreduce.grouping;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
@@ -26,7 +26,7 @@ public class UserApp extends Configured implements Tool {
 	public static void main(final String[] args) throws Exception {
 		if (args.length != 2) {
 			System.out
-					.println("Usage : hadoop jar <jar> org.hadoop.mapreduce.grouping.UserApp <input path> <output path>");
+					.println("Usage : hadoop jar <jar> UserApp <input path> <output path>");
 		}
 		final int res = ToolRunner
 				.run(new Configuration(), new UserApp(), args);

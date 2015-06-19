@@ -1,4 +1,4 @@
-package org.hadoop.mapreduce.grouping;
+package org.bigtech.hadoop.mapreduce.grouping;
 
 import java.io.IOException;
 
